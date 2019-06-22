@@ -1,0 +1,58 @@
+
+body{
+    width: 100%;
+    height: auto;
+    margin:0px;
+    padding:0px;
+}
+
+article {
+    width: 1000px;
+    
+    padding: 0px;
+
+    margin:0 auto;
+}
+
+section {
+    display: block;
+}
+
+.list-news-box li {
+    display: block;
+    float: left;
+    width: 225px;
+    margin-right: 20px;
+    padding: 0;
+}
+.column{
+    width:25%;
+    float: left;
+    
+
+}
+.sanpham{
+    border-radius:10 pixel;
+ box-shadow: 0 0 5px gray;
+padding:10px;
+margin: 8px;
+ text-align: center;
+
+}
+.san-pham .ten{
+    font-size:larger;
+ font-variant: small-caps;
+color: blue;
+
+}
+.san-pham .img{
+ max-width:95%;
+}
+.san-pham .gia{
+ color: red;
+ font-weight:bold;
+ font-size:larger;
+}
+.san-pham .gia del{
+ color:gray;
+}
